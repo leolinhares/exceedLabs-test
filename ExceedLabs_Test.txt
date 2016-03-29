@@ -1,0 +1,47 @@
+ExceedLabs
+
+Crie um projeto no github (https://github.com/) ou bitbucket (https://bitbucket.org/) chamado exceedLabs-test
+Cada questão deve ser respondida num arquivo (Ex: Q1.java ou q1.py ou Q2.js).
+Use qualquer linguagem.
+Use qualquer biblioteca, porém para cada biblioteca utilizada deve ser explicado o motivo do uso.
+Para as questões de implementação, é necessário informar como executar o código e quais as dependências.
+
+1) Na expressão a seguir, para qualquer valor boolean de b, qual o resultado de c?
+ c = b ? !b : b
+
+2) Qual o padrão de projeto utilizado no trecho de código escrito em Java abaixo?
+public class A {
+	public static final A INSTANCE = new A();
+	
+	private A() {
+	
+	}
+	
+	public static A getInstance() {
+	return A.INSTANCE;
+	}
+}
+
+3) Nessa questão você terá que analisar as temperaturas existentes em uma DataSet, procurando pela temperatura mais próxima de 0.
+Implemente o método closestToZero para retornar o valor de temperatura mais próximo de zero. As temperaturas estão no array ts.
+
+Condições: 
+	Se ts estiver vazio, retorne 0.
+	Se dois números estiverem perto de zero, considere o positivo na hora de retornar. (Ex: se ts tem -5 e 5, retorne 5).
+	Temperatura é sempre um valor float entre a faixa: -273 to 5526.
+	ts nunca é null.
+	
+Código de exemplo para validação do método:
+double[] ts = 
+{7,-10,13,8,4,-7.2,-12,-3.7,3.5,-9.6,6.5,-1.7,-6.2,7};
+
+double result = Solution.closestToZero(ts);
+
+System.out.println("Result: " + result);
+
+4) No site inicial do submarino (http://www.submarino.com.br/) há uma seção (widget) indicando o produto mais vendido. Faça uma busca (crawler) que pegue o produto mais vendido e o seu valor. Exibindo o resultado no console. (Mostrar como executar o código e explicitar todas as dependências)
+
+5) Faça um app que receba um usuário e uma senha, realize uma autenticação no Instagram (usando a API do Instagram) e exiba no console: 
+O nome do usuário autenticado
+Quantos seguidores tem 
+Quantos pessoas está seguindo
