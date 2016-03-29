@@ -1,0 +1,13 @@
+1) c = b ? !b : b
+
+A expressão acima utiliza o operador ternário de algumas linguagens de
+programação como Java.
+
+A estrutura básica é a seguinte: condicão ? valor1 : valor2
+Isto é, dada uma expressão condicional, se ela for verdadeira,o valor retornado
+será o valor1, caso contrário o valor2 será retornado.
+
+Voltando ao exemplo dado, suponhamos que b é verdadeiro, dessa forma c receberá
+o valor de !b, que é falso. Supondo que b é falso, c receberá o valor de b, que
+é falso. Dessa forma podemos concluir que não importa o valor booleano de b, c
+sempre receberá falso.
