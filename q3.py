@@ -1,3 +1,5 @@
+# Executar no terminal com o comando: python q3.py
+
 ts = [7,-10,13,8,4,-7.2,-12,-3.7,3.5,-9.6,6.5,-1.7,-6.2,7]
 
 def closestToZero(temperatures):
