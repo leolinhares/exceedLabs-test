@@ -4,7 +4,7 @@ A expressão acima utiliza o operador ternário de algumas linguagens de
 programação como Java.
 
 A estrutura básica é a seguinte: condicão ? valor1 : valor2
-Isto é, dada uma expressão condicional, se ela for verdadeira,o valor retornado
+Isto é, dada uma expressão condicional, se ela for verdadeira, o valor retornado
 será o valor1, caso contrário o valor2 será retornado.
 
 Voltando ao exemplo dado, suponhamos que b é verdadeiro, dessa forma c receberá

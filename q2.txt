@@ -1,0 +1,19 @@
+2)
+
+public class A {
+	public static final A INSTANCE = new A();
+
+	private A() {
+
+	}
+
+	public static A getInstance() {
+	return A.INSTANCE;
+	}
+}
+
+O padrão de projeto acima é chamado de Singleton, um padrão de criação.
+Esse padrão garante que uma determinada classe possua apenas uma instância e que
+existe somente um ponto de acesso a ela, o método getInstance. Isso garante que
+a classe vai gerenciar a próprio instância e que nenhuma outra classe será capaz
+de instanciar ela.
